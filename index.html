@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="page.css">
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "4fb16e97a62950";
+wcs_do();
+</script>
+
+</head>
+<body>
+   <div class="page">
+         <img src="page.jpg" alt="랜딩페이지">
+   </div>
+   <form name="contactForm" id="contactForm" action="send.php" method="POST" autocomplete="off">
+      <div class="box">
+    <input type="NAME" id="name" name="name">
+       <div class="telbox">
+       <input type="tel" id="phone1" name="phone1">
+       <span id="under1"></span>
+       <input type="tel" id="phone2" name="phone2">
+       <span id="under2"></span>
+       <input type="tel" id="phone3" name="phone3">
+       </div>
+       <div class="information">
+       <input type="checkbox" id="information" checked>
+       <label for="information"></label>
+       <span>개인 번호 수집 / 이용에 대한 동의 <a href="agreement.jpg" target="_blank" onclick="window.open(this.href, ''); return false;">[자세히보기]</a></span>
+       </div>
+       <button>
+       <p>맞춤 상담</p><p>받기</p></button>
+        <img src="click.png" alt="클릭">
+       </div>
+	  </form>
+</body>
+</html>
